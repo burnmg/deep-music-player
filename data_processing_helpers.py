@@ -30,7 +30,6 @@ def from_three_to_four_vec(input):
 
     return np.array(res)
 
-
 def clean_music(music_score):
     """
     clean data's illegal characters.
@@ -42,4 +41,5 @@ def clean_music(music_score):
     res = p.sub(r"\1\2", music_score)
     res = res.replace("!", "")
     return res
+
 
