@@ -13,17 +13,17 @@ import time
 import pickle
 
 embedding_size = 8
-epochs = 200
+epochs = 1
 batch_size = 32
 id = "_chopin"
-weights_filename = 'my_model_weights '+id+'.h5'
+weights_filename = 'output/my_model_weights '+id+'.h5'
 songs_data_filename = 'data/game.npy'
 start_note = '<start>'
 end_note = '<end>'
 MAX_LEN = 3000
 
-my_device = '/GPU:0'
-# my_device = '/CPU:0'
+# my_device = '/GPU:0'
+my_device = '/CPU:0'
 
 
 class MyModel(keras.Model):
@@ -88,8 +88,8 @@ def np_array_to_music_sentences(songs_raw):
 
 with open(songs_data_filename, 'rb') as f:
     songs = np.load(f)
-    songs_strings = np_array_to_music_sentences(songs)
-tf.debugging.set_log_device_placement(True)
+    songs_strings = np_array_to_music_sentences(songs)[:1]
+# tf.debugging.set_log_device_placement(True)
 
 tokenizer = keras.preprocessing.text.Tokenizer(lower=False, filters='')
 tokenizer.fit_on_texts(songs_strings)
@@ -155,5 +155,5 @@ with tf.device(my_device):
         loss_metric_train.reset_states()
         loss_metric_val.reset_states()
 model.save_weights(weights_filename)
-with open("training_hist" + id, "wb") as training_hist:
+with open("output/training_hist" + id, "wb") as training_hist:
     pickle.dump(metric_result, training_hist)
