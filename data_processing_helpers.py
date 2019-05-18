@@ -2,7 +2,7 @@ import re
 import numpy as np
 
 
-def from_four_to_three_vec(input):
+def from_four_to_three_vec(input, scale = 1/8):
     """
     convert 4-tuple np arrays to 3-tuple np arrays
     from (pitch, velocity, start_time, end_time)
@@ -10,8 +10,9 @@ def from_four_to_three_vec(input):
     :param input: np array
     :return: np aray
     """
+    multiplier = scale * 8
 
-    return np.apply_along_axis(lambda row:[row[0], row[1], row[3]-row[2]], 1, input)
+    return np.apply_along_axis(lambda row:[row[0], row[1], multiplier * (row[3]-row[2])], 1, input)
 
 
 def from_three_to_four_vec(input):
