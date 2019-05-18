@@ -12,8 +12,8 @@ import numpy as np
 import time
 import pickle
 
-embedding_size = 8
-epochs = 1
+embedding_size = 32
+epochs = 150
 batch_size = 32
 id = "_chopin"
 weights_filename = 'output/my_model_weights '+id+'.h5'
@@ -88,7 +88,7 @@ def np_array_to_music_sentences(songs_raw):
 
 with open(songs_data_filename, 'rb') as f:
     songs = np.load(f)
-    songs_strings = np_array_to_music_sentences(songs)[:1]
+    songs_strings = np_array_to_music_sentences(songs)
 # tf.debugging.set_log_device_placement(True)
 
 tokenizer = keras.preprocessing.text.Tokenizer(lower=False, filters='')
