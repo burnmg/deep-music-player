@@ -15,11 +15,12 @@ import pickle
 embedding_size = 8
 epochs = 200
 batch_size = 32
-id = "2"
+id = "_chopin"
 weights_filename = 'my_model_weights '+id+'.h5'
 songs_data_filename = 'data/game.npy'
 start_note = '<start>'
 end_note = '<end>'
+MAX_LEN = 3000
 
 my_device = '/GPU:0'
 # my_device = '/CPU:0'
@@ -95,7 +96,7 @@ tokenizer.fit_on_texts(songs_strings)
 tokenized = tokenizer.texts_to_sequences(songs_strings)
 num_notes = len(tokenizer.word_index) + 1
 
-x = keras.preprocessing.sequence.pad_sequences(tokenized, padding='pre')
+x = keras.preprocessing.sequence.pad_sequences(tokenized, padding='pre', maxlen=MAX_LEN)
 n, maxlen = x.shape
 y = np.hstack([x[:, 1:], np.zeros((n, 1), dtype=np.int)])
 
