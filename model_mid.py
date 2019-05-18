@@ -23,7 +23,7 @@ end_note = '<end>'
 MAX_LEN = 3000
 
 # my_device = '/GPU:0'
-my_device = '/CPU:0'
+my_device = '/GPU:0'
 
 
 class MyModel(keras.Model):
