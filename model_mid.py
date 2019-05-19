@@ -41,7 +41,7 @@ class MyModel(keras.Model):
 
         self.d = Dense(num_notes, activation='softmax')
 
-    def call(self, x, state=(None, None, None, None)):
+    def call(self, x, state=(None, None)):
 
         x = self.embedding(x)
 
@@ -158,3 +158,5 @@ model.save_weights(weights_filename)
 with open("output/training_hist" + id, "wb") as training_hist:
     pickle.dump(metric_result, training_hist)
 
+with open("output/tokenizer" + id, "wb") as tokenizer_path:
+    pickle.dump(tokenizer, tokenizer_path)
