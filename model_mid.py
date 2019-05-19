@@ -41,7 +41,7 @@ class MyModel(keras.Model):
 
         self.d = Dense(num_notes, activation='softmax')
 
-    def call(self, x, state=(None, None)):
+    def call(self, x, state=(None, None, None)):
 
         x = self.embedding(x)
 
@@ -59,7 +59,7 @@ class MyModel(keras.Model):
 
         x = self.d(x)
 
-        return x, (output_state1, output_state2)
+        return x, (output_state1, output_state2, output_state3)
 
 
 def loss_function(y, output):
