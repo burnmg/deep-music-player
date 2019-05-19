@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06eac01-a621-4dfb-ad9f-4873aa2b3dba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/script" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_mid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_lstm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/my_model_weights _game.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/tokenizer_game" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/training_hist_game" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/token_to_nparray.py" beforeDir="false" afterPath="$PROJECT_DIR$/token_to_nparray.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,15 +32,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="162" />
-          <entry key="dummy" value="28" />
-          <entry key="py" value="2747" />
+          <entry key="dummy" value="36" />
+          <entry key="py" value="2777" />
+          <entry key="script" value="365" />
           <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="75" />
-          <entry key="Python" value="2909" />
+          <entry key="PLAIN_TEXT" value="448" />
+          <entry key="Python" value="2939" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,12 +49,13 @@
           <entry key="csv" value="3" />
           <entry key="ipynb" value="6" />
           <entry key="py" value="16" />
+          <entry key="script" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="6" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="16" />
         </counts>
       </usages-collector>
@@ -55,14 +63,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model_mid.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="6" />
+            <state relative-caret-position="1159">
+              <caret line="61" column="77" selection-start-line="61" selection-start-column="77" selection-end-line="61" selection-end-column="77" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/script">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -70,32 +87,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/token_to_nparray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="299">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model_lstm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="36" selection-start-line="36" selection-end-line="39" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model_mid.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="1" />
             </state>
           </provider>
         </entry>
@@ -139,6 +135,7 @@
       <find>strings</find>
       <find>MAX_LEN</find>
       <find>max_len</find>
+      <find>output_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,9 +154,10 @@
         <option value="$PROJECT_DIR$/model_mid.ipynb" />
         <option value="$PROJECT_DIR$/print_training_results.py" />
         <option value="$PROJECT_DIR$/output/chopin/model_mid.py" />
-        <option value="$PROJECT_DIR$/token_to_nparray.py" />
         <option value="$PROJECT_DIR$/model_lstm.py" />
+        <option value="$PROJECT_DIR$/token_to_nparray.py" />
         <option value="$PROJECT_DIR$/model_mid.py" />
+        <option value="$PROJECT_DIR$/script" />
       </list>
     </option>
   </component>
@@ -194,32 +192,6 @@
               <item name="deep-music-player" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep-music-player" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="deep-music-player" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deep-music-player" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deep-music-player" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deep-music-player" type="462c0819:PsiDirectoryNode" />
-              <item name="midi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deep-music-player" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deep-music-player" type="462c0819:PsiDirectoryNode" />
-              <item name="music_tokens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deep-music-player" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deep-music-player" type="462c0819:PsiDirectoryNode" />
-              <item name="music_tokens" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deep-music-player" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deep-music-player" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -244,8 +216,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/music_tokens" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/output/chopin" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/models" />
@@ -297,7 +269,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_mid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -503,7 +475,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558231695419</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update">
+      <created>1558231871745</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1558231871745</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update">
+      <created>1558231957278</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558231957278</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -513,6 +499,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="23" width="1468" height="906" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16240497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -527,7 +514,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923833" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32923833" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -546,7 +533,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model_mid.py</url>
+          <url>file://$PROJECT_DIR$/model_2.py</url>
           <line>59</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -617,23 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_mid.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/token_to_nparray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model_lstm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -644,13 +614,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_mid.py">
+    <entry file="file://$PROJECT_DIR$/model_mid.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/token_to_nparray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="6" />
+        <state relative-caret-position="299">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="61" column="77" selection-start-line="61" selection-start-column="77" selection-end-line="61" selection-end-column="77" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

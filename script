@@ -1,0 +1,10 @@
+# This script trains the model on video game sound track data on the GPU
+
+# Parse raw midi data to np array
+
+# trian the model on the np array data
+python3 model_2
+
+# use the model to generate new music pieces
+
+# Parse music pieces back to midi files
