@@ -59,7 +59,7 @@ class MyModel(keras.Model):
 
         x = self.d(x)
 
-        return x, (output_state1, output_state2, output_state3, output_state4)
+        return x, (output_state1, output_state2)
 
 
 def loss_function(y, output):
@@ -157,3 +157,4 @@ with tf.device(my_device):
 model.save_weights(weights_filename)
 with open("output/training_hist" + id, "wb") as training_hist:
     pickle.dump(metric_result, training_hist)
+
