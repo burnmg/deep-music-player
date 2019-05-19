@@ -6,7 +6,7 @@ import tensorflow as tf
 
 # running mode
 from tensorflow import keras
-from tensorflow.keras.layers import Dense, GRU, Dropout, Embedding
+from tensorflow.keras.layers import Dense, GRU, Dropout, Embedding, LSTM
 
 import numpy as np
 import time
@@ -30,13 +30,13 @@ class MyModel(keras.Model):
     def __init__(self):
         super(MyModel, self).__init__()
         self.embedding = Embedding(num_notes, embedding_size)
-        self.gru1 = GRU(512, return_sequences=True, return_state=True)
+        self.gru1 = LSTM(512, return_sequences=True, return_state=True)
         self.dropout1 = Dropout(0.4)
-        self.gru2 = GRU(512, return_sequences=True, return_state=True)
+        self.gru2 = LSTM(512, return_sequences=True, return_state=True)
         self.dropout2 = Dropout(0.4)
-        self.gru3 = GRU(512, return_sequences=True, return_state=True)
+        self.gru3 = LSTM(512, return_sequences=True, return_state=True)
         self.dropout3 = Dropout(0.4)
-        self.gru4 = GRU(512, return_sequences=True, return_state=True)
+        self.gru4 = LSTM(512, return_sequences=True, return_state=True)
         self.dropout4 = Dropout(0.4)
 
         self.d = Dense(num_notes, activation='softmax')
@@ -155,6 +155,5 @@ with tf.device(my_device):
         loss_metric_train.reset_states()
         loss_metric_val.reset_states()
 model.save_weights(weights_filename)
-
 with open("output/training_hist" + id, "wb") as training_hist:
     pickle.dump(metric_result, training_hist)

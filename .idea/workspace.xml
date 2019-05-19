@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06eac01-a621-4dfb-ad9f-4873aa2b3dba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/output/chopin/model_mid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_lstm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_tokens/chopin_tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_tokens/game_music_tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/token_to_nparray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/my_model_weights_chopin.h5" beforeDir="false" afterPath="$PROJECT_DIR$/output/chopin/my_model_weights_chopin.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/training_hist_chopin" beforeDir="false" afterPath="$PROJECT_DIR$/output/chopin/training_hist_chopin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/chopin/model_mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/output/chopin/model_mid.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,30 +29,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="25" />
+          <entry key="Python Console" value="161" />
           <entry key="dummy" value="28" />
-          <entry key="py" value="1697" />
+          <entry key="py" value="2672" />
           <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="75" />
-          <entry key="Python" value="1722" />
+          <entry key="Python" value="2833" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="3" />
-          <entry key="ipynb" value="5" />
-          <entry key="py" value="13" />
+          <entry key="ipynb" value="6" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="5" />
+          <entry key="IPNB" value="6" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -60,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_mid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="1856">
+              <caret line="138" column="43" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -69,18 +71,43 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output/chopin/model_mid.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/token_to_nparray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="420">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model_lstm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-87">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_mid.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/final fantasy/model_mid.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="156" column="12" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -130,12 +157,15 @@
         <option value="$PROJECT_DIR$/music21 load data.py" />
         <option value="$PROJECT_DIR$/model_mid.ipynb" />
         <option value="$PROJECT_DIR$/print_training_results.py" />
+        <option value="$PROJECT_DIR$/output/chopin/model_mid.py" />
         <option value="$PROJECT_DIR$/model_mid.py" />
+        <option value="$PROJECT_DIR$/token_to_nparray.py" />
+        <option value="$PROJECT_DIR$/model_lstm.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="203" />
+    <option name="x" value="-9" />
     <option name="y" value="23" />
     <option name="width" value="1468" />
     <option name="height" value="906" />
@@ -168,12 +198,18 @@
             <path>
               <item name="deep-music-player" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep-music-player" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="midi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="deep-music-player" type="b2602c69:ProjectViewProjectNode" />
               <item name="deep-music-player" type="462c0819:PsiDirectoryNode" />
-              <item name="midi" type="462c0819:PsiDirectoryNode" />
+              <item name="music_tokens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-music-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep-music-player" type="462c0819:PsiDirectoryNode" />
+              <item name="music_tokens" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="deep-music-player" type="b2602c69:ProjectViewProjectNode" />
@@ -197,15 +233,18 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/models" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/output/chopin" />
       <recent name="$PROJECT_DIR$/models/final fantasy" />
       <recent name="$PROJECT_DIR$/midi" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/music_tokens" />
+      <recent name="$PROJECT_DIR$/output/chopin" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.model_mid">
+  <component name="RunManager" selected="Python.token_to_nparray">
     <configuration name="clean_music" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep-music-player" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,6 +323,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="token_to_nparray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deep-music-player" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/token_to_nparray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in mytest_from_four_to_three_vec.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="deep-music-player" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,9 +364,11 @@
       <item itemvalue="Python.mytest_from_four_to_three_vec" />
       <item itemvalue="Python.clean_music" />
       <item itemvalue="Python.model_mid" />
+      <item itemvalue="Python.token_to_nparray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.token_to_nparray" />
         <item itemvalue="Python.model_mid" />
         <item itemvalue="Python.mytest_from_four_to_three_vec" />
         <item itemvalue="Python.clean_music" />
@@ -381,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558196593915</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1558216087577</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558216087577</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -390,7 +459,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="203" y="23" width="1468" height="906" extended-state="0" />
+    <frame x="-9" y="23" width="1468" height="906" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27366966" />
@@ -398,13 +467,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32923833" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923833" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32923833" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32923833" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -458,26 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_mid.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_mid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/final fantasy/model_mid.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/print_training_results.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -488,10 +537,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/final fantasy/model_mid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="156" column="12" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/output/chopin/model_mid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="272">
+          <caret line="93" selection-start-line="93" selection-end-line="96" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_mid.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_mid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1856">
+          <caret line="138" column="43" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/token_to_nparray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_lstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
