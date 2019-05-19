@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06eac01-a621-4dfb-ad9f-4873aa2b3dba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/model_lstm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_tokens/chopin_tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_tokens/game_music_tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/token_to_nparray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/chopin/model_mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/output/chopin/model_mid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_lstm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +27,14 @@
         <counts>
           <entry key="Python Console" value="161" />
           <entry key="dummy" value="28" />
-          <entry key="py" value="2672" />
+          <entry key="py" value="2683" />
           <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="75" />
-          <entry key="Python" value="2833" />
+          <entry key="Python" value="2844" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -86,8 +82,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model_lstm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-87">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -450,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558216087577</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1558228473022</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558228473022</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -583,8 +589,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model_lstm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="255">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -15,8 +15,8 @@ import pickle
 embedding_size = 32
 epochs = 150
 batch_size = 32
-id = "_chopin"
-weights_filename = 'output/my_model_weights '+id+'.h5'
+id = "_lstm_game"
+weights_filename = 'output/my_model_weights'+id+'.h5'
 songs_data_filename = 'data/chopin.npy'
 start_note = '<start>'
 end_note = '<end>'
