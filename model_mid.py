@@ -12,12 +12,12 @@ import numpy as np
 import time
 import pickle
 
-embedding_size = 32
+embedding_size = 16
 epochs = 150
 batch_size = 32
-id = "_chopin"
+id = "_game"
 weights_filename = 'output/my_model_weights '+id+'.h5'
-songs_data_filename = 'data/chopin.npy'
+songs_data_filename = 'data/game.npy'
 start_note = '<start>'
 end_note = '<end>'
 MAX_LEN = 3000
@@ -51,11 +51,11 @@ class MyModel(keras.Model):
         x, output_state2 = self.gru2(x, initial_state=state[1])
         x = self.dropout2(x)
 
-        x, output_state3 = self.gru3(x, initial_state=state[2])
-        x = self.dropout3(x)
-
-        x, output_state4 = self.gru4(x, initial_state=state[3])
-        x = self.dropout4(x)
+        # x, output_state3 = self.gru3(x, initial_state=state[2])
+        # x = self.dropout3(x)
+        #
+        # x, output_state4 = self.gru4(x, initial_state=state[3])
+        # x = self.dropout4(x)
 
         x = self.d(x)
 
