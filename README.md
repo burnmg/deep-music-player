@@ -4,4 +4,7 @@
 Ruolin Jia (rj2537) Yida Lin (yl3842) Xu Han <xh2379>
 
 ## Youtube Demo
+https://www.youtube.com/watch?v=thWJbdCfMGQ
 
+## Run
+See script file
