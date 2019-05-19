@@ -13,7 +13,7 @@ import time
 import pickle
 
 embedding_size = 16
-epochs = 50
+epochs = 100
 batch_size = 32
 id = "_game"
 weights_filename = 'output/my_model_weights '+id+'.h5'
@@ -51,8 +51,8 @@ class MyModel(keras.Model):
         x, output_state2 = self.gru2(x, initial_state=state[1])
         x = self.dropout2(x)
 
-        # x, output_state3 = self.gru3(x, initial_state=state[2])
-        # x = self.dropout3(x)
+        x, output_state3 = self.gru3(x, initial_state=state[2])
+        x = self.dropout3(x)
         #
         # x, output_state4 = self.gru4(x, initial_state=state[3])
         # x = self.dropout4(x)
