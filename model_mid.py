@@ -41,7 +41,7 @@ class MyModel(keras.Model):
 
         self.d = Dense(num_notes, activation='softmax')
 
-    def call(self, x, state=(None, Non)):
+    def call(self, x, state=(None, None)):
 
         x = self.embedding(x)
 
