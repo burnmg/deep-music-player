@@ -20,7 +20,7 @@ weights_filename = 'output/my_model_weights '+id+'.h5'
 songs_data_filename = 'data/game.npy'
 start_note = '<start>'
 end_note = '<end>'
-MAX_LEN = 3000
+MAX_LEN = 150
 
 # my_device = '/GPU:0'
 my_device = '/GPU:0'
@@ -41,7 +41,7 @@ class MyModel(keras.Model):
 
         self.d = Dense(num_notes, activation='softmax')
 
-    def call(self, x, state=(None, None)):
+    def call(self, x, state=(None, Non)):
 
         x = self.embedding(x)
 
