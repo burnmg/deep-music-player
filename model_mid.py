@@ -13,7 +13,7 @@ import time
 import pickle
 
 embedding_size = 16
-epochs = 150
+epochs = 50
 batch_size = 32
 id = "_game"
 weights_filename = 'output/my_model_weights '+id+'.h5'
